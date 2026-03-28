@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olhar Paulistano</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: #222; color: #fff; padding: 15px; text-align: center; }
+    nav { background: #444; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 10px; text-decoration: none; font-weight: bold; }
+    .container { padding: 20px; }
+    .card { background: white; padding: 15px; margin-bottom: 15px; border-radius: 8px; }
+    .ad { background: #ddd; text-align: center; padding: 20px; margin: 20px 0; }
+    footer { background: #222; color: white; text-align: center; padding: 10px; }
+    button { padding: 10px; background: #007BFF; color: white; border: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Olhar Paulistano</h1>
+  <p>Notícias, história e participação cidadã</p>
+</header>
+
+<nav>
+  <a href="#noticias">Notícias</a>
+  <a href="#curiosidades">Curiosidades</a>
+  <a href="#demanda">Enviar Demanda</a>
+</nav>
+
+<div class="container">
+
+  <div class="ad">
+    <!-- Espaço para anúncio -->
+    <p>Seu anúncio aqui</p>
+  </div>
+
+  <section id="noticias">
+    <h2>📰 Notícias</h2>
+    <div class="card">
+      <h3>Título da notícia</h3>
+      <p>Texto da notícia...</p>
+    </div>
+  </section>
+
+  <section id="curiosidades">
+    <h2>📚 Curiosidades Históricas</h2>
+    <div class="card">
+      <h3>Você sabia?</h3>
+      <p>Curiosidade histórica aqui...</p>
+    </div>
+  </section>
+
+  <section id="demanda">
+    <h2>🛠️ Enviar Demanda</h2>
+    <div class="card">
+      <form>
+        <input type="text" placeholder="Seu nome" required><br><br>
+        <input type="email" placeholder="Seu email" required><br><br>
+        <textarea placeholder="Descreva o problema" required></textarea><br><br>
+        <input type="file" accept="image/*,video/*"><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Olhar Paulistano</p>
+</footer>
+
+</body>
+</html>
